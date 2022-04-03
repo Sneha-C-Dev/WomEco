@@ -1,0 +1,381 @@
+body{
+    background-color: #d9e4f5;
+    background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+    margin: 0;
+}
+@keyframes anim {
+    0%{
+        opacity: 0;
+        filter: blur(5px);
+        
+    }
+    100%{
+        opacity: 1;
+        filter: blur(0px);
+    }
+    
+}
+.container{
+    height: 270vh;
+    width: 100%;
+}
+.top{
+    width: 100%;
+    height: 25vh;
+    background: none;
+    display: flex;
+    justify-content: center;
+}
+.top-1{
+    width: 70%;
+    height: 100%;
+    float: left;
+    
+}
+.top-logo{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 17%;
+    margin-right: 0;
+    float: left;
+    animation: anim;
+    animation-duration: 3s;
+}
+.top-txt{
+    height: 100%;
+    width: 65%;
+    float: left;
+}
+.top-cap{
+    color: #b54a7d;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 4em;
+    animation: anim;
+    animation-duration: 3s;
+}
+
+.d-btn{
+    float: left;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.download-btn{
+    height: 8vh;
+    width: 12vw;
+    background: #b54a7d;
+    border: 0;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 600;
+    animation: anim;
+    animation-duration: 3s;
+}
+.download-btn:hover{
+    cursor: pointer;
+    background: none;
+    border: 2px solid #b54a7d ;
+    color: #b54a7d;
+}
+.opts-tab{
+    height: 10vh;
+    background: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #b54a7d;
+}
+.opt{
+    width: 70%;
+    height: 100%;
+    background: none;
+}
+.opt1{
+    height: 100%;
+    width: 25%;
+    float: left;
+    display: flex;
+    background: #b54a7d;
+    justify-content: center;
+    align-items: center;
+}
+.opt-txt{
+    font-family: helvetica;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    animation: anim;
+    animation-duration: 3s;
+}
+.opt1:hover .opt-txt{
+    color: #b54a7d;
+}
+.opt1:hover{
+    background: white;
+    cursor: pointer;
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.bottom{
+    width: 100%;
+    height: 36vh;
+    background-color: #b54a7d;
+    margin-top: 10vh;
+    padding-top: 0.1vh;
+}
+.icon{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+}
+.svg-insta{
+    color: white;
+    width: 2.5vw;
+}
+.svg-insta1{
+    color: white;
+    width: 2.5vw;
+    margin-left: 8vw;
+}
+.svg-insta:hover{
+    cursor: pointer;
+    color: black;
+}
+.svg-insta1:hover{
+    cursor: pointer;
+    color: black;
+}
+.bottom .icon span:hover
+{
+    cursor: pointer;
+    color: black;
+}
+
+.bottom .icon span
+{
+    color: white;
+    font-size: 1.5em;
+    font-family: helvetica;
+    font-weight: 500;
+}
+.bottom .icon span:nth-child(2)
+{
+    margin-left: 6vw;
+}
+.bottom .icon span:nth-child(3)
+{
+    margin-left: 6vw;
+}
+
+.bottom .icon span:nth-child(4)
+{
+    margin-left: 6vw;
+}
+.copyright{
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+.bottom .copyright p{ 
+    color: white;
+}
+.clms
+{
+    width: 100%;
+    height: 62vh;
+}
+.clm1
+{
+    width: 25%;
+    height: 100%;
+    background-color: #b54a7d;
+    float: left;
+}
+.clm2
+{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: white;
+}
+.clm-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.clms .clm1 img{
+    filter: invert(1);
+    width: 20%;
+}
+.clm-cap{
+    display: flex;
+    justify-content: center;
+}
+.clm-cap1{
+    color: white;
+    font-family: helvetica;
+    font-size: 150%;
+}
+.clm-cap3{
+    color: white;
+    font-family: helvetica;
+    font-size: 150%;
+    margin-top: 2%;
+}
+.svg-clm{
+    color: #b54a7d;
+    width: 11%;
+}
+.clm-cap2{
+    color: #b54a7d;
+    font-family: helvetica;
+    font-size: 150%;
+}
+.svg-clm4{
+    color: #b54a7d;
+    width: 29%;
+}
+.clm-txt{
+    width: 80%;
+    padding-left: 10%;
+    color: white;
+    font-family: helvetica;
+    font-size: 120%;   
+    display: flex;
+    justify-content: center;
+}
+.clm-txt2{
+    width: 80%;
+    padding-left: 10%;
+    color: #b54a7d;
+    font-family: helvetica;
+    font-size: 120%;   
+    display: flex;
+    justify-content: center;
+}
+.winners
+{
+    width: 45%;
+    height: 95vh;
+    border: 1px solid #b54a7d;
+    margin: 3vh;
+    float: left;
+}
+.winners h1{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 3em;
+    color: #803257;
+}
+.winners h2{
+    margin-left: 2vw;
+    font-family: helvetica;
+    font-size: 2em;
+    font-style: italic;
+}
+.chess-w1{
+    width: 30%;
+    height: 23vh;
+    text-align: center;
+    float: left;
+}
+
+
+.awareness
+{
+    width: 50%;
+    float: left;
+    height: 95vh;    
+    margin-top: 3vh;
+    border: 1px solid #b54a7d;
+}
+.a-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 62vh;
+}
+.d-img
+{
+    width: 18vh;
+    border-radius: 10%;
+    margin-top: -1vh;
+}
+.a-details
+{
+    width: 30vw;
+    height: 31vh;
+    float: left;
+}
+.doc-img{
+    float: left;
+    height: 31vh;
+    width: 20%;
+    padding-left: 5vw;
+}
+
+.reg-btn{
+    height: 7vh;
+    width: 9vw;
+    border: 0;
+    background: #b54a7d;
+    margin-left: 4vw;
+    color: white;
+    font-weight: 500;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 2vh;
+}
+.reg-btn:hover{
+    background: none;
+    border: 1px solid #b54a7d;
+    color: #b54a7d;
+}

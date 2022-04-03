@@ -1,0 +1,234 @@
+.container{
+    height: 278vh;
+}    
+.cap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: black;   
+}
+.main-cap{
+    font-size: 50px;
+}
+h1 span{
+    display: inline-block;
+    animation: cap-anim 2s linear forwards;
+}
+@keyframes cap-anim {
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+    
+}
+.upcoming
+{
+    width: 100%;
+    height: 150vh;
+}
+.row{
+    width: 100%;
+    margin-top: 5vh;
+    height: 72vh;
+}
+.e-details{
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+}
+.e-details1{
+    width: 45%;
+    height: 100%;
+    margin-left: 2.8vw;
+    float: left;
+}
+
+.event-img{
+    margin-left: 5vw;
+}
+.upcoming .row span{
+    font-size: 1.7em;
+    font-family: helvetica;
+}
+.btn-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btns
+{
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+}
+.btns a{
+    position: relative;
+    display: inline-block;
+    padding: 6vh 3vw;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #b54a7d;
+    background: white;
+    font-size: 2em;
+    font-family: helvetica;
+    margin: 4vw;
+    letter-spacing: 0.1em;
+}
+.btns a:hover{
+    background: #b54a7d;
+    color: white;
+    transition: 0.5s;
+    transition-delay: 0.5s;
+}
+.btns a span
+{
+    position: absolute;
+    display: block;
+    background: #b54a7d;
+}
+.btns a span:nth-child(1)
+{
+    left: 0;
+    bottom: 0;
+    width: 0.2vw;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.25s;
+}
+.btns a:hover span:nth-child(1)
+{
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform 0.25s;
+}
+.btns a span:nth-child(2)
+{
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0.2vw;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.25s;
+    transition-delay: 0.25s;
+}
+.btns a:hover span:nth-child(2)
+{
+    transform: scaleX(1);
+    transform-origin: left;
+    transition: transform 0.25s;
+    transition-delay: 0.25s;
+}
+.btns a span:nth-child(3)
+{
+    right: 0;
+    bottom: 0;
+    width: 0.2vw;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: bottom;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+}
+.btns a:hover span:nth-child(3)
+{
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform 0.25s;
+    transition-delay: 0.5s;
+}
+.btns a span:nth-child(4)
+{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0.2vw;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s;
+    transition-delay: 0.75s;
+}
+.btns a:hover span:nth-child(4)
+{
+    transform: scaleX(1);
+    transform-origin: right;
+    transition: transform 0.25s;
+    transition-delay: 0.75;
+}
+
+.bottom{
+    width: 100%;
+    height: 36vh;
+    background-color: #b54a7d;
+    margin-top: 0vh;
+    padding-top: 0.1vh;
+}
+
+.tech
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+.tech-opt{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.tech-opt1
+{
+    width: 30vw;
+    height: 100%;
+    background: #b54a7d;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    font-family: helvetica;
+    font-weight: 500;
+}
+.tech-opt2
+{
+    width: 30vw;
+    height: 100%;
+    margin-left: 6vw;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+    font-family: helvetica;
+    font-weight: 500;
+    background: #b54a7d;
+}
+.tech-opt1:hover
+{
+    color: #b54a7d;
+    background: none;
+    border: 1px solid #b54a7d;
+    cursor: pointer;
+}
+.tech-opt2:hover
+{
+    color: #b54a7d;
+    background: none;
+    border: 1px solid #b54a7d;
+    cursor: pointer;
+}

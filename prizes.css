@@ -1,0 +1,95 @@
+.container{
+    height: 72vh;
+}
+.prize
+{
+    width: 100%;
+    height: 50vh;
+    margin-top: 10vh;
+}
+.prize1{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/drawing.jpg);
+    font-family: helvetica;
+    background-size: 85vh;
+}
+.prize2{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-size: 44vw;
+    color: white;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/photography.jpg);
+    font-family: helvetica;
+}
+.prize3{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-size: 44vw;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/jam.jpg);
+    font-family: helvetica;
+}
+.prize4{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-size: 44vw;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/movie.jpg);
+    font-family: helvetica;
+}
+
+.prize5{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-size: 44vw;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/coding.jpg);
+    font-family: helvetica;
+}
+.prize6{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-size: 44vw;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/web\ design.jpg);
+    font-family: helvetica;
+}
+.prize7{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-size: 44vw;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/hackthon.png);
+    font-family: helvetica;
+}
+
+.prize8{
+    width: 25%;
+    height: 100%;
+    float: left;
+    color: white;
+    background-size: 44vw;
+    background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(Images/ideathon.jpg);
+    font-family: helvetica;
+}
+p{
+    margin-left: 1vw;
+}
+.prize-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.bottom{
+    margin-top: 10vh;
+}
